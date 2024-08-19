@@ -121,3 +121,73 @@
     max-height: 100%;
     transition: opacity 0.8s ease;
 }
+
+.user-message-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-profile-pic {
+    width: 30px;
+    height: 22px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.server-response-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.server-profile-pic {
+    width: 30px;
+    height: 28px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+.user-message {
+    background: linear-gradient(90deg, #009BF3, #44AEFC);
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    max-width: 60%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.server-response {
+    background: linear-gradient(90deg, #dfdfdf, #e5e5e5);
+    color: #464646;
+    padding: 5px 10px;
+    border-radius: 20px;
+    max-width: 60%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    float: right;
+}
+
+.message-timestamp {
+    font-size: 9px;
+    margin-top: 5px;
+    text-align: right;
+    width: 100%;
+}
+
+.user-timestamp {
+    color: rgb(255, 255, 255);
+}
+
+.server-timestamp {
+    color: rgb(0, 0, 0);
+}
+
+.spinner {
+    font-size: 12x;
+    animation: dotAnimation 2s steps(5, end) infinite;
+}
